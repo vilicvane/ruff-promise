@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "bld"
+    },
+    "exclude": [
+        "bld",
+        "test",
+        "node_modules"
+    ]
+}

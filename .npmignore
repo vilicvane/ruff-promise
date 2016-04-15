@@ -1,0 +1,11 @@
+/.vscode/
+/coverage/
+/src/
+/bld/test/
+/bld/debug/
+/test/
+/typings/
+
+.*
+
+tsconfig.json
