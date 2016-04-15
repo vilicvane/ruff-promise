@@ -505,5 +505,7 @@ export class Promise<T> implements PromiseLike<T> {
 export default Promise;
 
 if (typeof global.Promise === 'undefined') {
-    global.Promise = Promise;
+    Object.defineProperty(global, 'Promise', {
+        value: Promise
+    });
 }
