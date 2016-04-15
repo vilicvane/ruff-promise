@@ -1,4 +1,4 @@
-import Promise from '../';
+import { Promise } from '../';
 
 import { testFulfilled, testRejected } from './helpers/three-cases';
 

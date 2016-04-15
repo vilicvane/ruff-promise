@@ -1,4 +1,4 @@
-import Promise from '../';
+import { Promise } from '../';
 
 describe('Feature: all', () => {
     it('All fulfilled', () => {

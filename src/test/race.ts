@@ -1,4 +1,4 @@
-import Promise from '../index';
+import { Promise } from '../';
 
 describe('Feature: race', () => {
     it('First resolved promise should relay its state', () => {

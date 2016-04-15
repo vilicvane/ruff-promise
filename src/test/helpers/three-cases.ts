@@ -1,4 +1,4 @@
-import Promise from '../../';
+import { Promise } from '../../';
 
 export type TestDoneHandler = (error?: string) => void;
 export type Test<T> = (promise: Promise<T>, done: TestDoneHandler) => void;

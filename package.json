@@ -1,6 +1,6 @@
 {
   "name": "promise",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ES6 Promise based on ThenFail 0.4",
   "author": "vilicvane",
   "license": "MIT",
