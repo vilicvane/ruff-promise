@@ -1,4 +1,4 @@
-var ThenFail = require('../../bld/index');
+var ThenFail = require('../../bld/');
 
 ThenFail.options.disableUnrelayedRejectionWarning = true;
 
@@ -6,7 +6,7 @@ var Promise = ThenFail.Promise;
 
 module.exports = {
     deferred: function () {
-        var promise = new Promise();
+        var promise = new Promise(function () { });
         return {
             promise: promise,
             resolve: function (value) {
